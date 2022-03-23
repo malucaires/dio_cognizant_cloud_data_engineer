@@ -1,0 +1,23 @@
+Segurança da Informação: 
+- Dado pode ser uma representação simbólica, numérica ou textual qualquer.
+- Informação é o conjunto ou a junção de dados que fazem um contexto ou sentido.
+- Segurança da Informação é uma área que tem como objetivo assegurar que todos os dados de uma ou mais informações estejam sempre confidenciais, íntegros e disponíveis em qualquer meio de comunicação.
+
+Princípios da Segurança da Informação: Integridade, Confidencialidade, Disponibilidade, Identificação, Autenticação, Autorização, Não Repúdio (princípio que visa evitar que uma entidad
+e negue suas ações em um sistema)
+
+ICMP (Internet Control Message Protocol) é um protocolo integrante do Protocolo IP
+Ping é uma ferramenta para testar a conectividade. É um comando que consiste no envio de pacotes para equipamentos de destino e na 'escuta' das respostas.
+HOST (echo request) -> SERVER
+HOST <- (echo reply) SERVER
+
+Biblioteca os: fornece uma maneira simples de utilizar funcionalidades que são dependentes do sistema operacional.
+
+Biblioteca Socket: fornece acesso de baixo nível à interface de rede.
+
+TCP (Transmission Control Protocol) é um dos protocolos de comunicação, que dão suporte a rede global Internet, verificando se os dados são enviados na sequência correta e sem erros.
+Princípio INTEGRIDADE. Verifica se os dados são enviados de maneira íntegra.
+
+Cliente UDP: UDP (User Datagram Protocol) é um protocolo simples da camada de transporte que permite que a aplicação envie um datagrama dentro num pacote IPv4 ou IPv6 a um destino, porém sem qualquer tipo de garantia que o pacote chegue corretamente.
+Princípio DISPONIBILIDADE. Garantir que um recurso/informação esteja disponível.
+
