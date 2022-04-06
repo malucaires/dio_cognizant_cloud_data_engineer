@@ -1,0 +1,21 @@
+Aula 1 - Fundamentos de ETL
+ETL - Extract (Extração), Transform (Transformação) e Load (Carregamento)
+-Extract: os dados são extraídos de diferentes fontes de dados.
+-Transform: os dados são propagados para a área de preparação de dados, onde são transformados e limpos.
+-Load: os dados são carregados no data warehouse.
+
+Formas de extração: Batch (extraídos em lote) e Streaming/Real Time (extraídos em tempo real)
+
+Data Sources são as diferentes fontes de dados (sistema operacional, ERP, CRM, SQL...) -> Data Flow/Pipeline (processos: data validation, data cleaning, data transforming, data aggregating, data loading; enviados para um Data Warehouse) -> BI results (OLAP Analysis, Data Mining, Data Visualization, Reports, Dashborads.
+
+Ferramentas/Pacotes: Apache Airflow, luigi, bonobo, bubbles, petl, pandas
+
+Aula 2 - Preparação do projeto ETL
+
+Dados - Centro de Investigação e Prevenção de Acidentes Aeronáuticos (CENIPA)
+
+Aula 3 - Desenvolvimento do Projeto ETL - Extração e validação
+
+Aula 4 - Desenvolvimento do Projeto ETL - Limpeza
+
+Aula 5 - Desenvolvimento do Projeto ETL - Transformação

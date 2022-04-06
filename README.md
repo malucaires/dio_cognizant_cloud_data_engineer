@@ -4,3 +4,4 @@
 - intro_python: Introdução à programação com Python - Rafael Galleani
 - python_pensamto_comp: Princípios de Pensamento Computacional com Python - Renata Ribeiro
 - seg_informacao_python: Segurança da Informação com Python - Bruno Dias
+- etl_python: Fundamentos de ETL com python - Fernando Tiosso
