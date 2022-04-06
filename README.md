@@ -9,3 +9,4 @@
 
 ###Desafios:
 - desafios_inicias_python: média, triângulo e conversão de tempo
+- desafios_intermediarios_python: quantidade números positivos, crescente/decrescente e resto da divisão
