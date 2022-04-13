@@ -1,0 +1,36 @@
+Modelo relacional: relacionar informações entre várias tabelas; atomizar as informações; as chaves estrangeiras permitem o relacionamento das tabelas.
+
+INNER JOIN: permite a mescla entre tabelas
+SELECT * FROM pessoas JOIN cursos ON pessoas.fk_cursos = cursos.id_cursos
+
+--LINHAS DE COMANDOS--
+
+/opt/lampp/bin/mysql -u root -p <senha>
+
+SHOW DATABASES; /retorna os banco de dados disponíveis
+
+USE dio_mysql; /seleciona o banco de dados escolhido
+
+SHOW TABLES; /retorna as tabelas disponíveis
+
+CREATE TABLE cursos(id_curso INT NOT NULL PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(10)); /cria uma uma tabela de cursos
+
+INSERT INTO cursos (nome) VALUES ('MySQL');
+INSERT INTO cursos (nome) VALUES ('HTML');
+INSERT INTO cursos (nome) VALUES ('CSS'); /adiciona informação na tabela;
+
+SELECT * FROM cursos; /seleciona todos os dados da tabela
+
+UPDATE cursos SET nome='HTML5' WHERE id=2;
+
+INSERT INTO cursos (nome) VALUES ('Economia'); /adiciona informação na tabela
+
+DELETE FROM cursos WHERE nome='Economia; /deleta informação na tabela
+
+ALTER TABLE cursos ADD carga_horaria INT(2); /adiciona uma coluna na tabela
+
+UPDATE cursos SET carga_horaria = 20; /adiciona informação na coluna de carga horária em toda tabela 
+
+UPDATE cursos SET carga_horaria = 40 WHERE id_curso=2; /altera informação na tabela
+
+DROP TABLE <nome_tabela>; /deleta a tabela
