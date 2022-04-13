@@ -1,0 +1,13 @@
+Módulo: objeto que serve como unidade organizacional do código que é carregado pelo comando de import.
+
+Pacote: coleção de módulos com hierarquia.
+
+Vantagens de modularização: legibilidade, manutenção e reaproveitamento de dados
+
+Vantagens de criar um pacote: facilidade de compartilhamento e facilidade de instação
+
+Pypi: repositório público oficial de pacotes
+Wheel e Sdist: dois tipos de distribuições
+Setuptools: pacote usado em setup.py para gerar as distribuições
+Twine: pacote usado para subir as distribuições no repositório Pypi
+

@@ -6,6 +6,7 @@ Cursos:
 - python_pensamto_comp: Princípios de Pensamento Computacional com Python - Renata Ribeiro
 - seg_informacao_python: Segurança da Informação com Python - Bruno Dias
 - etl_python: Fundamentos de ETL com python - Fernando Tiosso
+- criacao_pacotes: Descomplicando a criação de pacotes em Python - Karina Kato
 
 Desafios:
 - desafios_inicias_python: média, triângulo e conversão de tempo
