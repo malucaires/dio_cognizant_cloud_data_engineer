@@ -11,3 +11,21 @@ Wheel e Sdist: dois tipos de distribuições
 Setuptools: pacote usado em setup.py para gerar as distribuições
 Twine: pacote usado para subir as distribuições no repositório Pypi
 
+Distribuições: Para subir o pacote, criar uma distribuição binária ou distribuição de código fonte. As versões mais recentes do pip instalam primeiramente a binária e usam a distribuição de código fonte apenas se necessário. 
+
+Comandos de instalação:
+python -m pip install --upgrade pip
+python -m pip install --user twine
+python -m pip install --user setuptools
+
+Comandos para criação de distribuição:
+python setup.py sdist bdist_wheel
+
+Passos para subir o pacote:
+1. Criar conta no Teste Pypi
+2. Publicar no Teste Pypi
+3. Instalar pacote usando Teste PyPi
+4. Testar pacote
+5. Criar conta no Pypi
+6. Publicar no Pypi
+7. Instalar pacote usando Pypi

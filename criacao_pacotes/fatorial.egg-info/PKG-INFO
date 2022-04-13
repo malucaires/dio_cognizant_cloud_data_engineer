@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fatorial
+Version: 0.0.1
+Summary: Calcula um fatorial de um número
+Home-page: https://github.com/malucaires/dio_cognizant_cloud_data_engineer/tree/main/criacao_pacotes
+Author: malucaires
+Author-email: malucairess@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# fatorial
+
+    Calcula o fatorial de um nÃºmero
+    :param num: nÃºmero a ser calculado
+    :param show: (opcional) mostra memÃ³ria de cÃ¡lculo
+    :return: valor faotiral de um nÃºmero
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install package_name
+```
+
+## Usage
+
+```python
+from package_name import file1_name
+file1_name.my_function()
+```
+
+## Author
+malucaires
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+

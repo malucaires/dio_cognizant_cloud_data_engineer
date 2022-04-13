@@ -1,0 +1,8 @@
+README.md
+setup.py
+fatorial/__init__.py
+fatorial/fatorial.py
+fatorial.egg-info/PKG-INFO
+fatorial.egg-info/SOURCES.txt
+fatorial.egg-info/dependency_links.txt
+fatorial.egg-info/top_level.txt
