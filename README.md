@@ -9,6 +9,7 @@ Cursos:
 - criacao_pacotes: Descomplicando a criação de pacotes em Python - Karina Kato
 - mysql_primeiras_tabelas: MySQL - Trabalhando com suas primeiras tabelas - Nathally Souza
 - mysql_relacionamentos: MySql - Explorando relacionamentos com workbench - Nathally Souza
+- mysql_join: MySQL - Consultas com Join - Nathally Souza
 
 Desafios:
 - desafios_inicias_python: média, triângulo e conversão de tempo
