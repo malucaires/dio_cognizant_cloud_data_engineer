@@ -1,0 +1,2 @@
+Modelo Relacional: surge na década de 60, proposto por Edgar Codd. As tabelas são compostas por entidades, atributos e chaves. As chaves permitem o relacionamento entre os dados.
+Porque usar tabelas? Dados organizados de forma estruturada; dados atômicos; consulta e manipulação de dados simplificados.

@@ -7,6 +7,7 @@ Cursos:
 - seg_informacao_python: Segurança da Informação com Python - Bruno Dias
 - etl_python: Fundamentos de ETL com python - Fernando Tiosso
 - criacao_pacotes: Descomplicando a criação de pacotes em Python - Karina Kato
+- mysql_primeiras_tabelas: MySQL - Trabalhando com suas primeiras tabelas - Nathally Souza
 
 Desafios:
 - desafios_inicias_python: média, triângulo e conversão de tempo
