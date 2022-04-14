@@ -12,6 +12,7 @@ Cursos:
 - mysql_join: MySQL - Consultas com Join - Nathally Souza
 - mongodb_nosql: Introdução ao MongoDB e Bancos de Dados NoSQL - Pamela Apolinario
 - nosql-cassandra: Explorando o poder do NoSQL com cassandra e HBase - Valdir Sevaios
+- intro_aws: Introdução a Engenharia de Dados na AWS - Cassiano Peres
 
 Desafios:
 - desafios_inicias_python: média, triângulo e conversão de tempo
@@ -30,3 +31,4 @@ Ferramentas utilizadas e assuntos abordados:
 - Robo 3T
 - HBase
 - Cassandra
+- AWS

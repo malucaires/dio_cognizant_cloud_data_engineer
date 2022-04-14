@@ -1,0 +1,13 @@
+Ferramentas AWS: SnowBall, Kinesis, MapReduce, Glue e Redshift
+
+Big Data trata dos desafios de gerenciamento de dados que não podem ser resolvidos em bancos de dados tradicionais devido aos crescentes Volume, Variadade e Velocidade.
+
+AWS Snow Family: Dispositivos portáteis altamente seguros para coletar e processar dados e migração para dentro e para fora da AWS. 
+
+AWS Kinesis: Alternativa gerenciada ao Apache Kafka. Ótimo para logs de aplicativos, métricas, IoT, clickstreamns, big data em tempo real e frameworks de processamento de straming. 
+
+AWS Elastic MapReduce: Serviço totalmente gerenciado do Hadoop em instâncias EC2. Inclui Spark, HBase, Presto, Flink, Colmeia e mais. 
+
+AWS Glue: serviço de integração de dados sem servidor que facilita descobrir, preparar e combinar dados par análise, machine learning e desenvolvimento da aplicação.
+
+AWS Redshift: Serviço de armazenamento de dados gerenciado em escala de petabytes. 
