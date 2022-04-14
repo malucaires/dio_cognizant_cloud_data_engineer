@@ -11,13 +11,14 @@ Cursos:
 - mysql_relacionamentos: MySql - Explorando relacionamentos com workbench - Nathally Souza
 - mysql_join: MySQL - Consultas com Join - Nathally Souza
 - mongodb_nosql: Introdução ao MongoDB e Bancos de Dados NoSQL - Pamela Apolinario
+- nosql-cassandra: Explorando o poder do NoSQL com cassandra e HBase - Valdir Sevaios
 
 Desafios:
 - desafios_inicias_python: média, triângulo e conversão de tempo
 - desafios_intermediarios_python: quantidade números positivos, crescente/decrescente e resto da divisão
 - desafios_finais_python: número primo, preenchimento vetor, encaixa ou não
 
-Ferramentas:
+Ferramentas utilizadas e assuntos abordados:
 - Visual Studio Code
 - Pycharm
 - Jupyter Notebook
@@ -27,3 +28,5 @@ Ferramentas:
 - Cassandra
 - MongoDB
 - Robo 3T
+- HBase
+- Cassandra

@@ -1,0 +1,10 @@
+NoSQL - Not Only SQL
+
+O NoSQl emergiu como uma alternativa de banco de dados não relacionado, normalmente evitando operações de join, é distribuído, open-source, escalável na horizontal, livre de modelagens ou schema (não é necessário ficar modelos para as tabelas), suporta replicação, acesso via API de operações e eventualmente consistente.
+
+Teorema CAP ou Teorema de Brewer indica que o armazenado de dados distribuídos só podem atender dois dos três atributos: Consistência, Disponibilidade, Partição Tolerante a Falhas. Tanto Hadoop e HBase atendem CP, porque possuem um ponto de falha que é respectivamente o NamedNode e HMaster que não possuem redundância dos dados dos próprios serviços para todos os nós do cluster.
+
+Aplicações como HBase, Cassandra, Dynamo e MongoDB são bancos de dados que armazenam grande quantidade de dados e os acessos à esses dados são realizados de forma aleatória em termos de posição do registro e do tempo.
+
+HBase é um banco de dados distribuído e orientado a colunas (Column Family ou Wide Column).
+Cassandra é um banco de dados distribuído e orientado a colunas (Wide Column). Os dados são tipados e há conceitos mais complexos de modelagem como chave primária composta, partition key e cluster key. Possui a linguagem CQL. Armazenamento em múltiplos nós sem nenhum ponto de falha.
