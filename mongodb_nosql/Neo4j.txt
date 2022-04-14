@@ -1,0 +1,18 @@
+https://sandbox.neo4j.com/
+
+Neo4j - Comandos:
+CREATE(:Client {name: 'Bob Esponja', age: 28, hobbies:['Caça água viva','Comer']}) /Added 1 label, created 1 node, set 3 properties
+
+MATCH (bob_esponja) RETURN bob_esponja /visualiza o nó
+
+CREATE(:Client {name: 'Lula Molusco', age: 30, hobbies: ['Tocar clarinete']}) -[:Bloqueado]->(:Client{name:'Patrick', hobbies:['Caçar água-viva']}) /Added 2 labels, created 2 nodes, set 5 properties, created 1 relationship
+
+MATCH (todos) RETURN todos
+
+MATCH (lula:Client {name:'Lula Molusco'}), (patrick:Client {name:'Patrick'}) CREATE (lula)-[:Bloqueado]-> (patrick) /Created 1 relationship
+
+MATCH (lula:Client {name:'Lula Molusco'})-[relaciona:Bloqueado]->() DELETE relaciona /Deleted 2 relationships
+
+MATCH (lula:Client {name:'Lula Molusco'}) DELETE lula /Deleted 1 node
+
+MATCH (patrick:Client {name:'Patrick'}) SET patrick.age = 28 /Set 1 property

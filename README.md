@@ -10,6 +10,7 @@ Cursos:
 - mysql_primeiras_tabelas: MySQL - Trabalhando com suas primeiras tabelas - Nathally Souza
 - mysql_relacionamentos: MySql - Explorando relacionamentos com workbench - Nathally Souza
 - mysql_join: MySQL - Consultas com Join - Nathally Souza
+- mongodb_nosql: Introdução ao MongoDB e Bancos de Dados NoSQL - Pamela Apolinario
 
 Desafios:
 - desafios_inicias_python: média, triângulo e conversão de tempo
@@ -20,3 +21,8 @@ Ferramentas:
 - Pycharm
 - Jupyter Notebook
 - MySQL Workbench
+- Sandbox Neo4j
+- Redis
+- Cassandra
+- MongoDB
+- Robo 3T

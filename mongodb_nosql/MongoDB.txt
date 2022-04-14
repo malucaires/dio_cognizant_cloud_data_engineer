@@ -1,0 +1,13 @@
+Banco de dados não relacionais orientado a documentos: Dados e documentos autocontidos e auto descritivos. Permite redundância e inconsistência. Livre de esquemas, podendo utilizar JSON, XML, entre outros. 
+
+MongoDB: código aberto; alta performance; schema-free; utiliza json para armazenamento dos dados; suporte a índices; auto-sharding (escalamento horizontal); map-reduce; suporte ao GridFS.
+
+Document -> tupla/registro
+Collection -> tabela
+Embedding/linking -> join
+
+Indicado para grande volume de dados; dados não necessariamente estruturados. Não indicado quando houver necessidade de relacionamentos/joins; quando precisar de propriedades ACID e transações são importantes.
+
+Docker: plataforma de código aberto de alto desempenho que garante que de forma fácil consiga criar e administrar os ambientes de forma isolada. Processo de conteinerização. 
+
+MongoDB utiliza o formato BSON e não JSON pois suportam dados tipo Date, ObjetctID, entre outros não suportados pelos JSON que só permite tipos primitivos.

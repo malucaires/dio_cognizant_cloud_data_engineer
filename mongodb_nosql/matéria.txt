@@ -1,0 +1,16 @@
+Aula 1 - Introdução
+Not Only SQL (NoSQL)
+Diferenças:
+- Escabilidade: BD relacionais possuem escalabilidade vertical com aumento da capacidade para um único recurso; banco de dados não relacionais possuem escabilidade horizontal onde o  particionamento dos dados (sharding) entre os nós é o mais conhecido.
+- Schema: BD relacionais necessitam de um schema rígido, enquanto os bancos de dados não relacionais não possuem schema.
+- Performance: BD relacionais dependem diretamente de discos rígiso, enquando banco de dados não relacionais dependem de clusters.
+- Transações: nos BD relacionais: ACID (Atomicidade, Consistência, Isolamento e Durabilidade), enquanto no BN NoSQL: BSE (Basically Available, Soft-State e Eventually Consistent).
+Vantagens do NoSQL: flexibilidade, escabilidade e alta performance
+
+Aula 2 - Conhecendo os tipos de banco de dados NoSQL
+Tipos de banco NoSQL:
+- MongoDB: orientado a documento 
+- Regis: orientado a chaves-valor
+- Cassandra: orientado a coluna
+- Neo4j: orientado a gráficos
+Grafos são comuns em detecção de fraude, mecanismos de recomendação, redes sociais, sistemas de arquivo, games... 

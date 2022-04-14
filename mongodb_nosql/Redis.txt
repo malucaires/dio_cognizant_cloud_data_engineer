@@ -1,0 +1,38 @@
+Redis: alto desempenho; estrutura de dados na memória; versatilidade de uso; replicação e persistência. 
+
+Orientado a chave-valor
+Armazena um conjunto de dados, seja ele simples ou complexo, identificados por um identificador exclusivo.
++ Bom desempenho em aplicações na nuvem. 
+- Menor capacidade de busca.
+
+https://try.redis.io/
+
+Redis - Comandos:
+
+SET user1:name 'Bob Esponja'
+
+GET user1:name
+
+SET user '{"name": "Patrick", "age":31}'
+
+GET user
+
+SET user2:name 'Lula Molusco' EX 10 //expira em 10 segundos
+
+EXISTS user2:name //verifica existência
+
+LPUSH user1:hobbies 'Caçar água viva'
+
+LPUSH user1:hobbies 'Comer hamburguer'
+
+LINDEX user1:hobbies 0 //retorna conforme índice da lista
+
+LRANGE user1:hobbies 0 1 
+
+TYPE user1:name //retorna o tipo
+
+TTL user1:name // retorna o tempo em segundos que o dado irá expirar
+
+PERSIST user2:name //retira o tempo que o dado irá expirar
+
+DEL user2:name //exclui

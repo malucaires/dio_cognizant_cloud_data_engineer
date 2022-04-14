@@ -1,0 +1,32 @@
+Diferenças de terminologias entre banco de dados relacionais e não relacionais orientados a colunas:
+Keyspace: agrupamento de famílias de colunas -> database
+Column Family/table: agrupamento de colunas -> table
+Row Key: chave que representa uma linha de coluna -> Primary Key
+Column: representa um valor contendo name, value timestamp. 
+
+https://www.katacoda.com/ -> cursos
+
+Cassandra - Comandos:
+CREATE KEYSPACE fenda_biquini WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+
+USE fenda_biquini;
+
+CREATE COLUMNFAMILY clients (name TEXT PRIMARY KEY, age INT);
+
+SELECT * FROM clients;
+
+INSERT INTO clients (name, age) VALUES ('Bob Esponja', 38);
+
+INSERT INTO clients JSON '{"name":"Patrick"}';
+
+SELECT age, WRITETIME(age) FROM clients;
+
+SELECT JSON * from clients;
+
+UPDATE clients SET age = 22 WHERE name = 'Patrick';
+
+ALTER COLUMNFAMILY clients ADD hobby text;
+
+UPDATE clients SET hobby = 'Caçar água viva' WHERE name = 'Patrick';
+
+DELETE FROM clients WHERE name = 'Bob Esponja';
