@@ -1,7 +1,7 @@
 # dio_cognizant_cloud_data_engineer
 ## DIO - Bootcamp Cognizant Cloud Data #2
 
-Foram 24 cursos abordando de forma introdutória os assuntos: Pensamento computacional; Git e GitHub; Linux; Python (utilizando Pycharm e Jupyter Notebook), Fundamentos de ETL; Banco de dados relacionais (MySQL Workbench) e NoSQL (Sandbox Neo4j, Redis, MongoDB, Cassandra, HBase); Clusters (Hadoop), Spark (Spark, PySpark e SparkSQL), Cloud (AWS e Microsoft Azure). 
+Bootcamp oferecido pela Digital Innovation One Inc.Foram 24 cursos abordando de forma introdutória os assuntos: Pensamento computacional; Git e GitHub; Linux; Python (utilizando Pycharm e Jupyter Notebook); Fundamentos de ETL; Banco de dados relacionais (MySQL Workbench) e NoSQL (Sandbox Neo4j, Redis, MongoDB, Cassandra, HBase); Clusters (Hadoop); Spark (Spark, PySpark e SparkSQL); Cloud (AWS e Microsoft Azure).  
 
 Cursos:
 - intro_python: Introdução à programação com Python - Rafael Galleani
