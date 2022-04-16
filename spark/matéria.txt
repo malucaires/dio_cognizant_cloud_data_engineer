@@ -1,0 +1,22 @@
+Spark é um framework analítico distribuído, capaz de realizar diversas operações de maneira extremamente rápida.
+
+É conhecido como um famework in-memory, sendo assim, RAM é fundamental para o bom funcionamento. Spark permite que utilizemos as mais diversas linguagens: Scala, Java, Python, R e SQL.
+
+Possui cinco bibliotecas principais:
+- Spark SQL
+- Spark Streaming
+- MLlib (machine learning)
+- GraphX (graph)
+- Apache Spark (Core) - RDD
+
+RDD (Resiliente Distributed Dataset) é uma coleção de elementos particionados entre os diversos nós de um cluster. É resistente a falha e são estruturados apra serem naturalmente distribuídos, sendo capazes de existir entre diversos nós de um cluster. São imutáveis: um RDD gera outro RDD, jamais poderá ser modificado.
+
+Arquitetura: podemos dividir o processamento em Singe Node (rodando em uma única máquina) e Cluster Mode (o Spark distribuirá a carga entre diversas máquinas.
+
+VM: https://drive.google.com/file/d/1CsHc311jp4EuZ8be5KGaumniGAafa8sC/view
+
+Pyspark: executa rotinas de spark em python
+
+SparkSQL consiste em um dos módulos do Spark, sedo ele uma abstração acima do core do Spark. Trabalha exclusivamente com objetos conhecimendos como Dataframes e Datasets. 
+
+

@@ -13,6 +13,7 @@ Cursos:
 - mongodb_nosql: Introdução ao MongoDB e Bancos de Dados NoSQL - Pamela Apolinario
 - nosql-cassandra: Explorando o poder do NoSQL com cassandra e HBase - Valdir Sevaios
 - monitoramento_hadoop: Monitoramento de clusters Hadoop de alto nível com HDFS e YARN - Rodrigo Garcia
+- spark: Processando grandes conjuntos de dados de forma paralela e distribuída com Spark - Ivan Falcão
 - intro_aws: Introdução a Engenharia de Dados na AWS - Cassiano Peres
 - intro_azure: Introdução a Engenharia de Dados na Azure - Joel Lopes
 
@@ -25,6 +26,7 @@ Ferramentas utilizadas e assuntos abordados:
 - Visual Studio Code
 - Pycharm
 - Jupyter Notebook
+- Python
 - MySQL Workbench
 - Sandbox Neo4j
 - Redis
@@ -33,6 +35,7 @@ Ferramentas utilizadas e assuntos abordados:
 - Robo 3T
 - HBase
 - Cassandra
+- Spark
 - AWS
 - Azure
 - Hadoop
