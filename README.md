@@ -12,6 +12,7 @@ Cursos:
 - mysql_join: MySQL - Consultas com Join - Nathally Souza
 - mongodb_nosql: Introdução ao MongoDB e Bancos de Dados NoSQL - Pamela Apolinario
 - nosql-cassandra: Explorando o poder do NoSQL com cassandra e HBase - Valdir Sevaios
+- monitoramento_hadoop: Monitoramento de clusters Hadoop de alto nível com HDFS e YARN - Rodrigo Garcia
 - intro_aws: Introdução a Engenharia de Dados na AWS - Cassiano Peres
 - intro_azure: Introdução a Engenharia de Dados na Azure - Joel Lopes
 
@@ -34,3 +35,4 @@ Ferramentas utilizadas e assuntos abordados:
 - Cassandra
 - AWS
 - Azure
+- Hadoop

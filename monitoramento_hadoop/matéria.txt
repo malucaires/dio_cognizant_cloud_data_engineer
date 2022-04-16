@@ -1,0 +1,31 @@
+"Big Data é um processo de análise e interpretação de um grande volume de dados armazenados remotamente. O Big Data pode integrar qualquer dado coletado sobre um assunto ou uma empresa, como os registros de compra e venda e mesmo os canais de interessação não digital (telemarketing e call center). Onde há um registro feito, a tecnologia o alcança" (FIA,2018)
+
+Escabilidade horizontal: processamento distribuído.
+Escabilidade vertical: processamento tradicional.
+
+Cluster é um grupo de computadores que trabalham juntos. Provê armazenamento, processamento e gerenciamento de recursos. É formado por um nó. O Nó Master (Driver) gerencia a distribuição de trabalho para os Nós Workers. Daemon é um programa (serviço) rodando em um nó. Cada um tem sua função no cluster.
+
+Hadoop é um projeto de software open-source escrito em Java. É escalável, confiável, com processamento distribuído. Pode utilizar hardware comum (commodity cluster computing). Possui framework para computação distribuída com filesystem distribuído (HDFS) e infraestrutura confiável capaz de lidar com falhas (hardware, software, rede).
+
+Core Hadoop: Processing (Spark, MapReduce), Resource Management (YARN) e Storage (HDFS).
+
+HDFS: Hadoop Distributed File System: baseado no Google FS; escalável e tolerante a falhas.
+Componentes:
+ - NameNode: gerencia a namespace. Se o Namenoe para, o cluster fica inacessível
+ - DataNode: armazena os blocos de arquivo.
+ - Secondary NameNode: oferece tarefasa de ponto de verificação e manutenção do NameNode.
+
+VM: https://drive.google.com/file/d/1CsHc311jp4EuZ8be5KGaumniGAafa8sC/view?usp=sharing
+
+YARN: Yet Another Resource Negotiator: Gerenciamento de recursos; Gerenciamento e monitoramento de Jobs; Recursos dos nós são alocados somente quando requisitado (via coontainer).
+Componentes
+ - Application: um job submetido ao Hadoop.
+ - Application Master: gerencia a execução e o escalonamento das tarefas (1 por aplicação).
+ - Container: unidade de alocação de recursos (ex. c1 = 1 GB RAM, 2 CPU).
+ - Resource Manager: gerenciador global de recursos.
+ - Node Manager: gerencia o ciclo de vida e monitora os recursos do Container.
+
+O YARN gerencia os recursos no cluster; trabalha com o HDFS para executar taregas quando o dado é armazenado; os workers rodam o daemon "NodeManager" e o master o daemon "ResourceManager"; é possível monitorar os jobs através da porta 8088.
+
+
+
