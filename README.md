@@ -13,6 +13,7 @@ Cursos:
 - mongodb_nosql: Introdução ao MongoDB e Bancos de Dados NoSQL - Pamela Apolinario
 - nosql-cassandra: Explorando o poder do NoSQL com cassandra e HBase - Valdir Sevaios
 - intro_aws: Introdução a Engenharia de Dados na AWS - Cassiano Peres
+- intro_azure: Introdução a Engenharia de Dados na Azure - Joel Lopes
 
 Desafios:
 - desafios_inicias_python: média, triângulo e conversão de tempo
@@ -32,3 +33,4 @@ Ferramentas utilizadas e assuntos abordados:
 - HBase
 - Cassandra
 - AWS
+- Azure

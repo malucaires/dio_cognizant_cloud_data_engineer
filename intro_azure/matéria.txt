@@ -1,0 +1,46 @@
+A Ciência de Dados combina técnicas da Ciência da Computação com ferramentas estatísticas para analisar dados. 
+
+Modelagem Preditiva: Utiliza modelos estatísticos para apontar como serão os dados no futuro, ou como se comportam em condições diversas.
+
+Modelagem Prescritiva: Enquanto a análise preditiva se limita a dizer como provavelmente será o futuro, a análise prescritiva fornece subsídios para tomar deciões que irão alterar o futuro.
+
+Dados são coleções de fatos, como números, descrições e observações usadas na tomada de decisão. Podemos classificar os dados como estruturados, semiestruturados ou não estruturados. 
+
+Ciência de Dados: Análise de Dados, Inteligência Artificial, Big Data e Engenharia de Dados.
+
+Plataformas: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), Alibaba Cloud, Oracle Cloud, IBM Cloud
+
+IaaS (Infraestrutura como Serviço) - A categoria mais básica ade serviços de computação em nuvem. Com a IaaS, você aluga a infraestrutura de TI (que inclui servidores e máquinas virtuais, armazenamento (VMs), redes e sistemas operacionais) de um provedor de nuvem, com pagamento conforme uso.
+
+PaaS (Plataforma como Serviço) - Oferece serviçoes de computação em nuvem sob demanda para desenvolvimento, teste e gerenciamento de aplicativos de software. A PaaS cuida de toda a configuração e gerência da infraestrutura dos servidores, armazenamento, rede e bancos de dados necessários para desenvolvimento.
+
+SaaS (Software como Serviço) - É um método para distribuição de aplicativos de software pela internet sob demanda normalmente baseado em assinaturas. O SaaS permite que os usuários conectem o aplicativo pela internet, normalmente com um navegador da web em seu telefone, tablet ou pc. 
+
+Certificações Azure: 
+DP-900 Azure Data Fundamentals
+DP-203 Azure Data Engineer Associate
+
+Ingestão de Dados é o processo usado para carregar ou importar dados de uma ou mais fontes para um serviço de armazenamento de dados. 
+
+Azure Data Factory é um serviço de ingestão e de transformação de dados que permite carregar dados brutos das mais diversas fontes, tanto locais quanto na nuvem. 
+
+Pipeline é um agrupamento lógico de atividades que, juntas, executam uma tarefa. As atividades de um pipeline definem as ações a serem executadas nos seus dados. 
+
+Os fluxos de dados (Data Flow) são transformações visualmente projetadas no Data Factory. Eles permitem que os engenheiros de dados desenvolvam a lógica de transformação de dados sem escrever código. As atividades de fluxo de dados incluem agendamento, controle, fluxo e monitoramento do Azure Data Factory.
+
+Opções de redundância:
+ - ZRS (armazenamento com redundância de zona)
+ - GRS (armazenamento com redundância geográfia)
+GZRS (armazenamento com redundância de zona geográfica)
+
+O Processamento de Dados também conhecido como ETL (extração, transformação e carregamento) é necessário quando temos uma massa de dados sem tratamento. O Azure Synapse Analytics é especialmente adequado para essa abordagem. 
+
+Azure Synapse Analytics é um serviço de análise para empresas que utilizam data warehouse e Big Data.Duas tecnologias: Transact-SQL e Spark.
+
+Transformação de dados é o processo de converter a estrutura ou o formato dos seus dados em outro formato ou estrutura em que seja possível analisá-los.
+
+A preparação de dados é uma atividade que converte dados brutos e desorganizados em uma visualização limpa e consistente para análise. O processo inclui procura, limpeza, transformação e organização.
+
+Estágios de processamento: ingestão (identifica a tecnologia e os processos usados para adquirir os dados de origem); armazenar (identifica o local em que os dados ingeridos devem ser colocados); preparar e treinar (identifica as tecnologias que são usadas para executar a preparação de dados e o treinamendo de modelo, assim como a pontuação para soluções de ciência de dados); e modelar e fornecer (envolve as tecnologias que apresentarão os dados aos usuários).
+
+Azure HDInsight é um serviço de análise totalmente gerenciado, completo e open-source na nuvem para empresas.
