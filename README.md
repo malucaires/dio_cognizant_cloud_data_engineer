@@ -17,25 +17,9 @@ Cursos:
 - intro_aws: Introdução a Engenharia de Dados na AWS - Cassiano Peres
 - intro_azure: Introdução a Engenharia de Dados na Azure - Joel Lopes
 
-Desafios:
+Desafios de código em Python:
 - desafios_inicias_python: média, triângulo e conversão de tempo
 - desafios_intermediarios_python: quantidade números positivos, crescente/decrescente e resto da divisão
 - desafios_finais_python: número primo, preenchimento vetor, encaixa ou não
 
-Ferramentas utilizadas e assuntos abordados:
-- Visual Studio Code
-- Pycharm
-- Jupyter Notebook
-- Python
-- MySQL Workbench
-- Sandbox Neo4j
-- Redis
-- Cassandra
-- MongoDB
-- Robo 3T
-- HBase
-- Cassandra
-- Spark
-- AWS
-- Azure
-- Hadoop
+Ferramentas utilizadas e abordadas durante o curso: Pycharm, Visual Studio  Code e Jupyter Notebook; MySQL Workbench; Sandbox Neo4j; Redis; Cassandra; MongoDB e Robo3T; Spark, PySpark e SparkSQL; Hadoop; AWS e Azure.
